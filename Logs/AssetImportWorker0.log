@@ -15,7 +15,7 @@ E:/Git/EstudoLuzesUnity
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65324
+62105
 Successfully changed project path to: E:/Git/EstudoLuzesUnity
 E:/Git/EstudoLuzesUnity
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ E:/Git/EstudoLuzesUnity
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10624] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 3981530997 [EditorId] 3981530997 [Version] 1048832 [Id] WindowsEditor(7,JoaoPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [26340] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 541476305 [EditorId] 541476305 [Version] 1048832 [Id] WindowsEditor(7,JoaoPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [10624] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 3981530997 [EditorId] 3981530997 [Version] 1048832 [Id] WindowsEditor(7,JoaoPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [26340] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 541476305 [EditorId] 541476305 [Version] 1048832 [Id] WindowsEditor(7,JoaoPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 6.25 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.1f1 (4fead5835099)
 [Subsystems] Discovering subsystems at path E:/VersoesUnity/2022.2.1f1-x86_64/Editor/Data/Resources/UnitySubsystems
@@ -67,41 +67,41 @@ Initialize mono
 Mono path[0] = 'E:/VersoesUnity/2022.2.1f1-x86_64/Editor/Data/Managed'
 Mono path[1] = 'E:/VersoesUnity/2022.2.1f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/VersoesUnity/2022.2.1f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/VersoesUnity/2022.2.1f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003138 seconds.
-- Loaded All Assemblies, in  0.328 seconds
+Registered in 0.002657 seconds.
+- Loaded All Assemblies, in  0.316 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.282 seconds
+- Finished resetting the current domain, in  0.272 seconds
 Domain Reload Profiling:
-	ReloadAssembly (184ms)
-		BeginReloadAssembly (77ms)
+	ReloadAssembly (183ms)
+		BeginReloadAssembly (75ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (76ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (142ms)
-				TypeCache.Initialize (141ms)
-					TypeCache.ScanAssembly (140ms)
+			SetupTypeCache (130ms)
+				TypeCache.Initialize (130ms)
+					TypeCache.ScanAssembly (128ms)
 				ResolveRequiredComponents (0ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (217ms)
+			SetupLoadedEditorAssemblies (210ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (8ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (151ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				ProcessInitializeOnLoadAttributes (144ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -111,48 +111,48 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\Git\EstudoLuzesUnity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Git\EstudoLuzesUnity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.774 seconds
-Refreshing native plugins compatible for Editor in 4.43 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.791 seconds
+Refreshing native plugins compatible for Editor in 2.27 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.602 seconds
+- Finished resetting the current domain, in  0.539 seconds
 Domain Reload Profiling:
-	ReloadAssembly (206ms)
-		BeginReloadAssembly (112ms)
+	ReloadAssembly (216ms)
+		BeginReloadAssembly (114ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		LoadAllAssembliesAndSetupDomain (567ms)
-			LoadAssemblies (78ms)
+			CreateAndSetChildDomain (21ms)
+		LoadAllAssembliesAndSetupDomain (575ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (541ms)
-				TypeCache.Initialize (305ms)
-					TypeCache.ScanAssembly (300ms)
+			SetupTypeCache (549ms)
+				TypeCache.Initialize (314ms)
+					TypeCache.ScanAssembly (309ms)
 				ResolveRequiredComponents (4ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (441ms)
+			SetupLoadedEditorAssemblies (381ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (10ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (8ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (341ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (285ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3512 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 38 unused Assets / (1.3 MB). Loaded Objects now: 3961.
-Memory consumption went from 0.54 GB to 0.54 GB.
-Total: 3.778800 ms (FindLiveObjects: 0.504400 ms CreateObjectMapping: 0.616200 ms MarkObjects: 2.387500 ms  DeleteObjects: 0.269900 ms)
+Memory consumption went from 0.54 GB to 0.53 GB.
+Total: 3.314000 ms (FindLiveObjects: 0.337800 ms CreateObjectMapping: 0.391200 ms MarkObjects: 2.313900 ms  DeleteObjects: 0.270300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -167,130 +167,49 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 172923.983312 seconds.
-  path: Assets/Scenes/ColorTheory1.unity
-  artifactKey: Guid(2dd3d67cfc4aba745bfc270f26deae28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/ColorTheory1.unity using Guid(2dd3d67cfc4aba745bfc270f26deae28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e5d88080fae8a73ee27371e2d13699') in 0.009340 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Scenes/ComplementaryColors.unity
-  artifactKey: Guid(61ab923b33c530b4a9813cddd1a77b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/ComplementaryColors.unity using Guid(61ab923b33c530b4a9813cddd1a77b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec7b600dddd47cf8c1f689e090ec525') in 0.007632 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.227837 seconds.
-  path: Assets/Scenes/BakeTest.unity
-  artifactKey: Guid(07b767dd8b63ea246ac0d07363de880e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/BakeTest.unity using Guid(07b767dd8b63ea246ac0d07363de880e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f188b9b5169a83b13b1a1751cec1deb') in 0.008957 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.487388 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50522dcd052db6e22e0c7a86ec434b7e') in 0.009653 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.474680 seconds.
-  path: Assets/Scenes/SplitComplementaryColors.unity
-  artifactKey: Guid(5cf07117ebf04e74f84b13b3dfbda203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/SplitComplementaryColors.unity using Guid(5cf07117ebf04e74f84b13b3dfbda203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ab44f69d717a801c46ba406da1875b') in 0.007906 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 7.079333 seconds.
-  path: Assets/Scenes/SplitComplementaryColors 1.unity
-  artifactKey: Guid(501412d48cfd02a42900e422262b3334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/SplitComplementaryColors 1.unity using Guid(501412d48cfd02a42900e422262b3334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96db98746ebfdfd484bf1494efe9a7a') in 0.007419 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.477724 seconds.
-  path: Assets/Scenes/Colors 1.unity
-  artifactKey: Guid(501412d48cfd02a42900e422262b3334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/Colors 1.unity using Guid(501412d48cfd02a42900e422262b3334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2afb0824b918f510cdeac3e964ef6bbe') in 0.008024 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 12.106863 seconds.
-  path: Assets/Scenes/TriadicColors.unity
-  artifactKey: Guid(501412d48cfd02a42900e422262b3334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/TriadicColors.unity using Guid(501412d48cfd02a42900e422262b3334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f990d88f63ef0c19f80ea2fca513e3e') in 0.007745 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 697.261354 seconds.
-  path: Assets/Scenes/TriadicColors.unity
-  artifactKey: Guid(501412d48cfd02a42900e422262b3334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/TriadicColors.unity using Guid(501412d48cfd02a42900e422262b3334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec6a7cc5faac52924daaf73f07bdcc2') in 0.011600 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.835589 seconds.
-  path: Assets/Scenes/TriadicColors 1.unity
-  artifactKey: Guid(c8beeaa0aa4df844584736e39f789e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/TriadicColors 1.unity using Guid(c8beeaa0aa4df844584736e39f789e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1113325c34c9429c671e796162ca030') in 0.008525 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 7.581467 seconds.
-  path: Assets/Scenes/TritradicColors.unity
-  artifactKey: Guid(c8beeaa0aa4df844584736e39f789e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/TritradicColors.unity using Guid(c8beeaa0aa4df844584736e39f789e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6edb8282847301c21fd35436f10f343') in 0.008703 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 395.800740 seconds.
-  path: Assets/Scenes/TretradicColors.unity
-  artifactKey: Guid(c8beeaa0aa4df844584736e39f789e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/TretradicColors.unity using Guid(c8beeaa0aa4df844584736e39f789e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926226664fea57267ea0007d5a9f80c0') in 0.009347 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 807.397199 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(047c0a69e0f0e554bb768899a711746a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes using Guid(047c0a69e0f0e554bb768899a711746a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c69135fedf07a7bb0d6074b3203548') in 0.010808 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 15.783768 seconds.
+  Time since last request: 52334.301340 seconds.
   path: Assets/Scenes/ColorsTheorys
   artifactKey: Guid(f1868997f3f832d4ba434e27c856b86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/ColorsTheorys using Guid(f1868997f3f832d4ba434e27c856b86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bedcbde6918dae76e939d928a4828943') in 0.009732 seconds 
+Start importing Assets/Scenes/ColorsTheorys using Guid(f1868997f3f832d4ba434e27c856b86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bedcbde6918dae76e939d928a4828943') in 0.009775 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 1.656285 seconds.
-  path: Assets/Scenes/BakeTest.lighting
-  artifactKey: Guid(3620b91e35a3bab4796df227815a2dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 1.481228 seconds.
+  path: Assets/Scenes/ColorsTheorys/TretradicColors.unity
+  artifactKey: Guid(c8beeaa0aa4df844584736e39f789e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/BakeTest.lighting using Guid(3620b91e35a3bab4796df227815a2dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 2.
- -> (artifact id: '5070982bb7021980b6d8721b58e9b315') in 0.059057 seconds 
-Number of asset objects unloaded after import = 1
+Start importing Assets/Scenes/ColorsTheorys/TretradicColors.unity using Guid(c8beeaa0aa4df844584736e39f789e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a1d3ff7802396a5c617e0c519e909a') in 0.009672 seconds 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 4.468608 seconds.
-  path: Assets/Scenes/ColorTheory1_Profiles
-  artifactKey: Guid(482d8228cf211984bbbad3ff49e0d190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 3.824284 seconds.
+  path: Assets/Scenes/ColorsTheorys/TretradicColors 1.unity
+  artifactKey: Guid(d5b9a24d213cad4479c020e00db92691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/ColorTheory1_Profiles using Guid(482d8228cf211984bbbad3ff49e0d190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4bd039b060c904150647c7b90166e61') in 0.022167 seconds 
+Start importing Assets/Scenes/ColorsTheorys/TretradicColors 1.unity using Guid(d5b9a24d213cad4479c020e00db92691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05d415248ec36e8ea3f4b7a45bb683d') in 0.007154 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.784997 seconds.
+  path: Assets/Scenes/ColorsTheorys/AnalagosColors.unity
+  artifactKey: Guid(d5b9a24d213cad4479c020e00db92691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/ColorsTheorys/AnalagosColors.unity using Guid(d5b9a24d213cad4479c020e00db92691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9316a5b46e59ff7fae18b16acdcca98') in 0.007758 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.983726 seconds.
+  path: Assets/Scenes/ColorsTheorys/AnalagousColors.unity
+  artifactKey: Guid(d5b9a24d213cad4479c020e00db92691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/ColorsTheorys/AnalagousColors.unity using Guid(d5b9a24d213cad4479c020e00db92691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf09352c15cb2c89aa23b74270279e86') in 0.007816 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 878.193693 seconds.
+  path: Assets/Scenes/ColorsTheorys/AnalagousColors.unity
+  artifactKey: Guid(d5b9a24d213cad4479c020e00db92691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/ColorsTheorys/AnalagousColors.unity using Guid(d5b9a24d213cad4479c020e00db92691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e7fdc1b0f5ac51b3394a9adb04087b') in 0.008550 seconds 
 Number of asset objects unloaded after import = 0
